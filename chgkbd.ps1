@@ -1,7 +1,7 @@
 Param($opt)
 if ($opt -eq "en") {
 	$modeset = @("kbd101.dll", "PCAT_101KEY", "0", "Switch to English mode")
-} elseif ($opt -eq "jp") {
+} elseif ($opt -eq "ja") {
 	$modeset = @("kbd106.dll", "PCAT_106KEY", "2", "Switch to Japanese mode")
 } else {
 	Write-Host "Current status:" -NoNewLine
