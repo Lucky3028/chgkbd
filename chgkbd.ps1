@@ -1,4 +1,4 @@
-Param($opt)
+Param([String]$opt)
 if ($opt -eq "en") {
 	$modeset = @("kbd101.dll", "PCAT_101KEY", "0", "Switch to English mode")
 } elseif ($opt -eq "ja") {
